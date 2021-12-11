@@ -1,0 +1,36 @@
+Sudah install nodejs
+
+//Cara Mencari Token Bot Tele
+https://www.teleme.io/articles/create_your_own_telegram_bot?hl=id
+
+//Cara mencari ChatID
+1. Silkahkan buat bot terlebih dahulu di BotFather sesuai dengan cara diatas
+2. Open bot ente, klik start
+3. Silahkan buat group nama bebas dan masukan bot ente kedalam grup yg habis dibuat
+4. silahkan edit config_tele.json masukin tokennya terlebih dahulu (chatid kosongin/bebas)
+5. silahkan buka cmd (Shift + Klik kanan -> Open Command Here)
+6. node chatid.js
+7. Silahkan chat sembarang di group yg dibuat tadi, nah nanti BOT bakal balas chatId
+8. Silahkan copy chatid masukan kedalam config_tele.json
+
+//Jika Menggunakan Notif Telegram
+1. Edit file config_tele.json
+2. Isi Token bot tele
+3. isi ChatID Tele
+
+//Cara run
+1. Shift + Klik kanan -> Open Command Here
+2. npm install
+3. node index
+silahkan lanjutkan instruksi 
+
+
+Jangan lupa follow dan aktifkan notifikasi POST akun target !!
+
+//Jika terkena checkpoint
+
+jika terkena bot akan mengirim kan kode OTP kedalam email akun ig tersebut
+dan masukan kedalam bot dan setelah sukses silahkan close dan ulangi login kembali.
+Jika masih terkena checkpoint silahkan jalankan BOT di IP LOKAL(INDO)/PC LOKAL terlebih dahulu.
+
+DWYOR!!
